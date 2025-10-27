@@ -15,15 +15,16 @@ interface WaitlistDialogProps {
 }
 
 export const WaitlistDialog = ({ open, onOpenChange, mode }: WaitlistDialogProps) => {
-  const handleFormOpen = () => {
-    // Replace with your actual Google Form URL
-    window.open("https://forms.google.com/", "_blank");
+  const handleFormOpen = (formType: 'hire' | 'work') => {
+    const hireFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdUEkqPCNp_871f4kEomXd4ALmO0003T0I6XTDFnhoxa7ShAg/viewform?usp=publish-editor";
+    const workFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfg2ryLqVJnzjgDxdZvyPSFt0K0vRVyqWysHLPLwoUvGxZtGg/viewform?usp=publish-editor";
+    window.open(formType === 'hire' ? hireFormUrl : workFormUrl, "_blank");
   };
 
   const getTitle = () => {
     if (mode === "hire") return "I Want a Helper";
     if (mode === "work") return "I Want Work";
-    return "Join Helper4U Waitlist";
+    return "Join Helperr4U Waitlist";
   };
 
   const getDescription = () => {
@@ -31,7 +32,7 @@ export const WaitlistDialog = ({ open, onOpenChange, mode }: WaitlistDialogProps
       return "Tell us what kind of help you need. We'll notify you when we launch in Jaipur!";
     }
     if (mode === "work") {
-      return "Create your helper profile and be ready to earn when we launch in Jaipur!";
+      return "Create your Helper profile and be ready to earn when we launch in Jaipur!";
     }
     return "Be among the first 100 to get lifetime free access!";
   };
@@ -54,14 +55,25 @@ export const WaitlistDialog = ({ open, onOpenChange, mode }: WaitlistDialogProps
             </p>
           </div>
 
-          <Button
-            onClick={handleFormOpen}
-            className="w-full bg-primary hover:bg-primary-glow text-lg py-6"
-            size="lg"
-          >
-            Open Signup Form
-            <ExternalLink className="ml-2 w-5 h-5" />
-          </Button>
+          <div className="space-y-4">
+            <Button
+              onClick={() => handleFormOpen('hire')}
+              className="w-full bg-primary hover:bg-primary-glow text-lg py-6"
+              size="lg"
+            >
+              I Need Helper
+              <ExternalLink className="ml-2 w-5 h-5" />
+            </Button>
+
+            <Button
+              onClick={() => handleFormOpen('work')}
+              className="w-full bg-primary hover:bg-primary-glow text-lg py-6"
+              size="lg"
+            >
+              I Want Work
+              <ExternalLink className="ml-2 w-5 h-5" />
+            </Button>
+          </div>
 
           <p className="text-xs text-muted-foreground text-center">
             By signing up, you'll be redirected to our Google Form to complete your registration.

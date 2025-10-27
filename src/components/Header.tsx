@@ -14,9 +14,9 @@ export const Header = ({ onJoinClick }: HeaderProps) => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between items-center gap-2 text-sm">
             <div className="flex flex-wrap items-center gap-4">
-              <a href="tel:+919876543210" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <a href="tel:+919549471019" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">+91 98765 43210</span>
+                <span className="font-medium">+91 9549471019</span>
               </a>
               <a href="mailto:contact@helper4u.in" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                 <Mail className="w-4 h-4" />
@@ -39,7 +39,7 @@ export const Header = ({ onJoinClick }: HeaderProps) => {
             className="flex items-center gap-3"
           >
             <div className="text-2xl md:text-3xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Helper4U
+              Helperr4U
             </div>
             <span className="hidden sm:inline-block text-xs bg-secondary/20 text-secondary px-3 py-1 rounded-full font-semibold">
               Launching Soon

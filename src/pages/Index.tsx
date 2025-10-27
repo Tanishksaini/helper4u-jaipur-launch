@@ -43,13 +43,13 @@ const Index = () => {
         <title>Helper4U - India's Verified Helper Marketplace | Launching in Jaipur</title>
         <meta
           name="description"
-          content="Hire maids, cooks, drivers & salesmen hourly or daily. India's first verified helper marketplace launching soon in Jaipur. Join the waitlist for lifetime free access!"
+          content="Hire maids, cooks, drivers & salesmen hourly or daily. India's first verified Helper marketplace launching soon in Jaipur. Join the waitlist for lifetime free access!"
         />
-        <meta name="keywords" content="helper marketplace, maid service, cook hire, driver booking, Jaipur helpers, verified helpers India" />
+        <meta name="keywords" content="helper marketplace, maid service, cook hire, driver booking, Jaipur Helpers, verified Helpers India" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Helper4U - Hire or Find Work Instantly, Safely, Locally" />
-        <meta property="og:description" content="India's verified helper marketplace for homes & shops. Launching soon in Jaipur!" />
+        <meta property="og:description" content="India's verified Helper marketplace for homes & shops. Launching soon in Jaipur!" />
         <meta property="og:type" content="website" />
         
         {/* Mobile Optimization */}

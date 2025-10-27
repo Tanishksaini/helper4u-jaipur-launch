@@ -5,12 +5,12 @@ const reasons = [
   {
     icon: BadgeCheck,
     title: "100% Verified Helpers",
-    description: "Every helper undergoes strict background verification, document checks, and skill assessment before joining our platform.",
+    description: "Every Helper undergoes strict background verification, document checks, and skill assessment before joining our platform.",
   },
   {
     icon: Shield,
     title: "Safety First",
-    description: "Your safety is our priority. All helpers are ID-verified with police verification and reference checks.",
+    description: "Your safety is our priority. All Helpers are ID-verified with police verification and reference checks.",
   },
   {
     icon: Clock,
@@ -20,12 +20,12 @@ const reasons = [
   {
     icon: Star,
     title: "Rated Professionals",
-    description: "Check ratings, reviews, and work history before booking. Only top-rated helpers stay on our platform.",
+    description: "Check ratings, reviews, and work history before booking. Only top-rated Helpers stay on our platform.",
   },
   {
     icon: Users,
     title: "Local & Reliable",
-    description: "Connect with helpers from your neighborhood. Fast response times and familiar faces you can trust.",
+    description: "Connect with Helpers from your neighborhood. Fast response times and familiar faces you can trust.",
   },
   {
     icon: Headphones,
@@ -44,9 +44,9 @@ export const WhyChooseUs = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose Helper4U</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose Helperr4U</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We're building India's most trusted helper marketplace with your safety and convenience as our top priority
+            We're building India's most trusted Helper marketplace with your safety and convenience as our top priority
           </p>
         </motion.div>
 

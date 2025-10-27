@@ -33,7 +33,7 @@ export const Hero = ({ onHireClick, onWorkClick }: HeroProps) => {
             </h1>
             
             <p className="text-xl text-muted-foreground mb-4 max-w-2xl">
-              India's first verified helper marketplace for homes & shops.
+              India's first verified Helper marketplace for homes & shops.
             </p>
             
             <p className="text-lg text-foreground/80 mb-8">
@@ -43,19 +43,19 @@ export const Hero = ({ onHireClick, onWorkClick }: HeroProps) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
                 size="lg"
-                onClick={onHireClick}
+                onClick={() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdUEkqPCNp_871f4kEomXd4ALmO0003T0I6XTDFnhoxa7ShAg/viewform?usp=publish-editor`, "_blank")}
                 className="bg-primary hover:bg-primary-glow text-lg px-8 py-6 shadow-elevated hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
               >
-                I Want a Helper
+               I Need Helper
               </Button>
               
               <Button
                 size="lg"
                 variant="outline"
-                onClick={onWorkClick}
+                onClick={() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSfg2ryLqVJnzjgDxdZvyPSFt0K0vRVyqWysHLPLwoUvGxZtGg/viewform?usp=publish-editor`, "_blank")}
                 className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground text-lg px-8 py-6 transition-all duration-300 hover:-translate-y-1"
               >
-                I Am a Helper
+                I Want Work
               </Button>
             </div>
           </motion.div>

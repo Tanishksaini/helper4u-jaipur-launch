@@ -36,21 +36,21 @@ export const AboutSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About Helper4U
+              About Helperr4U
             </h2>
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-              Helper4U is India's upcoming <strong className="text-foreground">verified helper marketplace</strong> that connects people who need daily help with those looking for work — instantly and safely.
+              Helperr4U is India's upcoming <strong className="text-foreground">verified Helper marketplace</strong> that connects people who need daily help with those looking for work — instantly and safely.
             </p>
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
               Whether you need a <strong className="text-foreground">maid for 2 hours</strong>, a <strong className="text-foreground">driver for 1 trip</strong>, or a <strong className="text-foreground">salesman for your shop</strong> — Helper4U makes it simple, safe, and local.
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We're starting our journey in <strong className="text-primary">Jaipur</strong> this December 2025, bringing a much-needed solution to families, shop owners, and helpers across the city.
+              We're starting our journey in <strong className="text-primary">Jaipur</strong> this December 2025, bringing a much-needed solution to families, shop owners, and Helpers across the city.
             </p>
 
             <div className="space-y-3">
               {[
-                "✓ Verified helpers with background checks",
+                "✓ Verified Helpers with background checks",
                 "✓ Flexible hourly & daily booking options",
                 "✓ Local connections for faster service",
                 "✓ Transparent ratings & reviews system",

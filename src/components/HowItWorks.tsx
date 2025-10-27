@@ -11,7 +11,7 @@ const employerSteps = [
   {
     icon: Users,
     title: "Get Matched",
-    description: "Receive profiles of verified nearby helpers instantly.",
+    description: "Receive profiles of verified nearby Helpers instantly.",
   },
   {
     icon: CheckCircle,
@@ -21,11 +21,11 @@ const employerSteps = [
   {
     icon: Star,
     title: "Rate & Rebook",
-    description: "Leave reviews and easily rebook your trusted helpers.",
+    description: "Leave reviews and easily rebook your trusted Helpers.",
   },
 ];
 
-const helperSteps = [
+const HelperSteps = [
   {
     icon: Users,
     title: "Create Your Profile",
@@ -60,7 +60,7 @@ export const HowItWorks = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">How It Works</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple steps for both employers and helpers
+            Simple steps for both employers and Helpers
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export const HowItWorks = () => {
 
           <TabsContent value="helper">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {helperSteps.map((step, index) => (
+              {HelperSteps.map((step, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 30 }}

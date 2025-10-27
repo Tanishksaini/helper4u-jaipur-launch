@@ -8,10 +8,10 @@ export const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-3xl font-bold mb-3 bg-gradient-hero bg-clip-text text-transparent">
-              Helper4U
+              Helperr4U
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
-              India's first verified helper marketplace connecting homes and workers instantly and safely. 
+              India's first verified Helper marketplace connecting homes and workers instantly and safely. 
               Starting our journey in Jaipur, December 2025.
             </p>
             <div className="flex items-center gap-2 text-muted-foreground mb-3">
@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="w-4 h-4" />
               <a href="mailto:contact@helper4u.in" className="hover:text-primary transition-colors">
-                contact@helper4u.in
+                contact@helperr4u.in
               </a>
             </div>
           </div>
@@ -88,7 +88,7 @@ export const Footer = () => {
 
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>© 2025 Helper4U. All Rights Reserved.</p>
+            <p>© 2025 Helperr4U. All Rights Reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>

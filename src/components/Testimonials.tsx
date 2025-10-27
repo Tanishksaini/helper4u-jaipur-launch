@@ -7,7 +7,7 @@ const testimonials = [
     role: "Homemaker, Jaipur",
     image: "PS",
     rating: 5,
-    text: "Can't wait for Helper4U to launch! Finally, a trusted platform for finding helpers. The verification process sounds perfect for safety-conscious families like ours.",
+    text: "Can't wait for Helperr4U to launch! Finally, a trusted platform for finding Helpers. The verification process sounds perfect for safety-conscious families like ours.",
   },
   {
     name: "Rajesh Gupta",
@@ -21,7 +21,7 @@ const testimonials = [
     role: "Working Professional",
     image: "MP",
     rating: 5,
-    text: "Already on the waitlist! The idea of having verified, rated helpers available at my fingertips will be a game-changer for working parents.",
+    text: "Already on the waitlist! The idea of having verified, rated Helpers available at my fingertips will be a game-changer for working parents.",
   },
 ];
 

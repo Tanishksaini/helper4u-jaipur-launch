@@ -48,7 +48,7 @@ export const Waitlist = ({ onJoinClick }: WaitlistProps) => {
             Join the Waitlist
           </h2>
           <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-6">
-            Be the first to join Helper4U. Get early access before we launch — and lifetime free benefits!
+            Be the first to join Helperr4U. Get early access before we launch — and lifetime free benefits!
           </p>
           
           <motion.div

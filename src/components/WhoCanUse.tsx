@@ -10,7 +10,7 @@ const categories = [
   {
     icon: Store,
     title: "Shop Owners",
-    description: "Need a salesman or helper for 2 days during festive seasons.",
+    description: "Need a salesman or Helper for 2 days during festive seasons.",
   },
   {
     icon: Heart,
@@ -34,7 +34,7 @@ export const WhoCanUse = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Who Can Use Helper4U</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Who Can Use Helperr4U</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Perfect for everyone who needs help or wants to earn
           </p>

@@ -64,7 +64,7 @@ export const ServicesGrid = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Services We Offer</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Find verified helpers for all your home and business needs
+            Find verified Helpers for all your home and business needs
           </p>
         </motion.div>
 

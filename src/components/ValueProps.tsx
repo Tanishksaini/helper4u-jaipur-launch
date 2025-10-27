@@ -5,7 +5,7 @@ const values = [
   {
     icon: Shield,
     title: "Verified Helpers",
-    description: "Every helper is background-checked with verified documents and ratings.",
+    description: "Every Helper is background-checked with verified documents and ratings.",
   },
   {
     icon: Clock,
@@ -15,7 +15,7 @@ const values = [
   {
     icon: MapPin,
     title: "Local Connections",
-    description: "Find helpers near you in Jaipur. Quick, convenient, community-based.",
+    description: "Find Helpers near you in Jaipur. Quick, convenient, community-based.",
   },
 ];
 

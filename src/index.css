@@ -24,10 +24,10 @@ All colors MUST be HSL.
     --primary-light: 197 100% 92%;
     --primary-glow: 197 100% 55%;
 
-    /* Warm Orange Accent */
-    --secondary: 20 100% 62%;
+    /* Vibrant Red-Orange Secondary */
+    --secondary: 8 92% 54%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 20 100% 95%;
+    --secondary-light: 8 92% 94%;
 
     --muted: 210 30% 96%;
     --muted-foreground: 215 16% 47%;
@@ -46,7 +46,7 @@ All colors MUST be HSL.
 
     /* Helper4U Custom Tokens */
     --gradient-hero: linear-gradient(135deg, hsl(197 100% 47%) 0%, hsl(197 100% 55%) 100%);
-    --gradient-warm: linear-gradient(135deg, hsl(20 100% 62%) 0%, hsl(25 100% 70%) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(8 92% 54%) 0%, hsl(8 92% 62%) 100%);
     --gradient-soft: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(197 100% 98%) 100%);
     
     --shadow-soft: 0 4px 20px -4px hsl(197 100% 47% / 0.15);
@@ -87,9 +87,10 @@ All colors MUST be HSL.
     --primary-light: 197 100% 20%;
     --primary-glow: 197 100% 55%;
 
-    --secondary: 20 100% 62%;
+    /* Dark theme secondary colors */
+    --secondary: 8 92% 54%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 20 100% 20%;
+    --secondary-light: 8 92% 25%;
 
     --muted: 217 32% 17%;
     --muted-foreground: 215 20% 65%;
