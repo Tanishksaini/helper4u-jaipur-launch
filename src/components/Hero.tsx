@@ -10,7 +10,7 @@ interface HeroProps {
 
 export const Hero = ({ onHireClick, onWorkClick }: HeroProps) => {
   return (
-    <section className="relative overflow-hidden bg-gradient-soft pt-20 pb-24 lg:pt-32 lg:pb-32">
+    <section className="relative overflow-hidden bg-gradient-soft pt-8 pb-24 lg:pt-16 lg:pb-32">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

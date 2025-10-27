@@ -1,12 +1,20 @@
 import { useState } from "react";
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { SocialProof } from "@/components/SocialProof";
+import { AboutSection } from "@/components/AboutSection";
 import { ValueProps } from "@/components/ValueProps";
+import { ServicesGrid } from "@/components/ServicesGrid";
 import { HowItWorks } from "@/components/HowItWorks";
+import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { WhoCanUse } from "@/components/WhoCanUse";
+import { Testimonials } from "@/components/Testimonials";
+import { FAQ } from "@/components/FAQ";
 import { Waitlist } from "@/components/Waitlist";
 import { Footer } from "@/components/Footer";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { WaitlistDialog } from "@/components/WaitlistDialog";
 import { Helmet } from "react-helmet";
 
@@ -50,14 +58,22 @@ const Index = () => {
       </Helmet>
 
       <div className="min-h-screen">
+        <Header onJoinClick={handleGeneralWaitlist} />
         <Hero onHireClick={handleHireClick} onWorkClick={handleWorkClick} />
         <SocialProof />
+        <AboutSection />
         <ValueProps />
+        <ServicesGrid />
         <HowItWorks />
+        <WhyChooseUs />
         <WhoCanUse />
+        <Testimonials />
+        <FAQ />
         <Waitlist onJoinClick={handleGeneralWaitlist} />
         <Footer />
         <StickyMobileCTA onClick={handleGeneralWaitlist} />
+        <WhatsAppButton />
+        <ScrollToTop />
         
         <WaitlistDialog
           open={dialogOpen}
