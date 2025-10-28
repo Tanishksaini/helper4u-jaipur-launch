@@ -4,7 +4,7 @@ const stats = [
   { value: "300+", label: "Early Signups" },
   { value: "100%", label: "Verified Helpers" },
   { value: "Jaipur", label: "Launching First" },
-  { value: "Dec 2025", label: "Launch Date" },
+  { value: "Soon", label: "Launch Date" },
 ];
 
 export const SocialProof = () => {

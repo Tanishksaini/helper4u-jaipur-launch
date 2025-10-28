@@ -12,7 +12,7 @@ export const Footer = () => {
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
               India's first verified Helper marketplace connecting homes and workers instantly and safely. 
-              Starting our journey in Jaipur, December 2025.
+              Starting our journey in Jaipur soon.
             </p>
             <div className="flex items-center gap-2 text-muted-foreground mb-3">
               <MapPin className="w-4 h-4" />

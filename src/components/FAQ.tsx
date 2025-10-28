@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     question: "When will Helperr4U launch in Jaipur?",
-    answer: "We're launching in December 2025! Join the waitlist now to be among the first 100 users and get lifetime free Pro access with zero platform fees.",
+    answer: "We're launching soon! Join the waitlist now to be among the first 100 users and get lifetime free Pro access with zero platform fees.",
   },
   {
     question: "How does the verification process work?",
