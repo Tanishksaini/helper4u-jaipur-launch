@@ -18,13 +18,13 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222 20% 20%;
 
-    /* Sky Blue Primary */
-    --primary: 197 100% 47%;
+    /* Brand Primary (match provided purple logo) */
+    --primary: 276 55% 44%; /* purple — tweak if you want slightly lighter/darker */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 197 100% 92%;
-    --primary-glow: 197 100% 55%;
+    --primary-light: 276 55% 92%;
+    --primary-glow: 276 55% 52%;
 
-    /* Vibrant Red-Orange Secondary */
+    /* Secondary (accent) - keeping the red-orange you used earlier (#F25022) */
     --secondary: 8 92% 54%;
     --secondary-foreground: 0 0% 100%;
     --secondary-light: 8 92% 94%;
@@ -45,7 +45,7 @@ All colors MUST be HSL.
     --radius: 1rem;
 
     /* Helper4U Custom Tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(197 100% 47%) 0%, hsl(197 100% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(276 55% 44%) 0%, hsl(276 55% 52%) 100%);
     --gradient-warm: linear-gradient(135deg, hsl(8 92% 54%) 0%, hsl(8 92% 62%) 100%);
     --gradient-soft: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(197 100% 98%) 100%);
     
@@ -82,10 +82,10 @@ All colors MUST be HSL.
     --popover: 222 47% 15%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 197 100% 47%;
+    --primary: 276 55% 28%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 197 100% 20%;
-    --primary-glow: 197 100% 55%;
+    --primary-light: 276 55% 18%;
+    --primary-glow: 276 55% 48%;
 
     /* Dark theme secondary colors */
     --secondary: 8 92% 54%;

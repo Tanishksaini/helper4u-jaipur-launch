@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
+import helperrLogo from "@/assets/helperr4u-logo.png";
 
 interface HeaderProps {
   onJoinClick: () => void;
@@ -31,17 +32,24 @@ export const Header = ({ onJoinClick }: HeaderProps) => {
       </div>
 
       {/* Main Navigation */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-3"> {/* reduced vertical padding for better balance */}
         <div className="flex items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-3"
+            className="flex items-center gap-4"
           >
-            <div className="text-2xl md:text-3xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Helperr4U
+            {/* logo container - fixed height to keep vertical alignment with nav/buttons */}
+            <div className="flex items-center h-12 md:h-16 lg:h-20">
+              <img
+                src={helperrLogo}
+                alt="Helperr4U"
+                className="h-12 md:h-16 lg:h-20 w-auto object-contain block"
+              />
             </div>
-            <span className="hidden sm:inline-block text-xs bg-secondary/20 text-secondary px-3 py-1 rounded-full font-semibold">
+
+            {/* badge — spaced and vertically centered */}
+            <span className="hidden sm:inline-flex items-center text-xs bg-secondary/20 text-secondary px-3 py-1 rounded-full font-semibold ml-2">
               Launching Soon
             </span>
           </motion.div>
@@ -63,7 +71,7 @@ export const Header = ({ onJoinClick }: HeaderProps) => {
 
           <Button
             onClick={onJoinClick}
-            className="bg-secondary hover:bg-secondary/90"
+            className="bg-secondary hover:bg-secondary/90 px-4 py-2"
           >
             Join Waitlist
           </Button>
